@@ -48,9 +48,10 @@ hub's Community tab come next, so for now merged packs live here as sources. The
 
 - **Everything is CC0.** Every pack and every file in this repository is dedicated to the public domain under
   [CC0-1.0](LICENSE), so any family can use it, change it and share it. Only send work that's yours to give.
-- **Pictures are drawings, or your own photos, of animals, places and things.** Never people and never faces,
-  in photos or drawings. Today the checker takes drawings only (black-and-white SVG files), so a photo needs
-  turning into a drawing first; CONTRIBUTING.md shows how.
+- **Pictures are drawings, or your own photos of animals, places and things.** Drawings may show simple cartoon
+  people, like an astronaut in a helmet, but never a real person's likeness. Photos never show people or faces.
+  Today the checker takes drawings only (black-and-white SVG files), so a photo needs turning into a drawing
+  first; CONTRIBUTING.md shows how.
 - **No personal details.** No real names, addresses, schools or anything that points to a family.
 - **No selling.** No brands, logos, ads, links, or characters that belong to someone else.
 - **Gentle and kind.** Nothing scary, mean or gross. A wrong answer is never laughed at. Families, homes and

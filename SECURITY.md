@@ -2,7 +2,7 @@
 
 Some problems shouldn't be discussed in public. If you find any of these, please report it privately:
 
-- a picture of a person, or a face, in a pack;
+- a real person, or a photo of a person or a face, in a pack;
 - someone's name, address, school or other personal details;
 - anything unsafe or upsetting for a young child;
 - a file that sneaks something past the checker (a script, a link, a hidden image or hidden text);

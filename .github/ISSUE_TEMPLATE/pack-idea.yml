@@ -43,5 +43,5 @@ body:
     attributes:
       label: The rules
       options:
-        - label: The idea needs no people, faces, brands, or characters that belong to someone else.
+        - label: The idea needs no real people, photos of people, brands, or characters that belong to someone else.
           required: true

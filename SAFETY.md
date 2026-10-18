@@ -20,8 +20,10 @@ images). Nothing below can be checked by a program. That's why a person does it.
 
 - **Gentle.** Nothing scary, violent, gross or shaming. No weapons. Luna, the Moon friend on the device, is
   never sad. A wrong answer is never mocked.
-- **No people.** No photos or drawings of people, and no faces of people, real or cartoon, not even in the
-  background. Animals, places and things only.
+- **No real people.** Drawings may show simple, generic cartoon people (an astronaut in a helmet, a
+  firefighter, a baker), drawn plainly with no realistic face. Never a real person's likeness, nobody who could
+  be recognised, and nothing traced from a photo of a person. Traced photos show animals, places and things
+  only, with no people or faces, not even in the background.
 - **No personal details.** No real names (the author's pen name in the credits is fine), no addresses, schools,
   street signs, number plates or anything else that points to a family or a place someone lives.
 - **No selling.** No brands, logos, ads, links, or "ask a grown-up to buy". No characters someone else owns.
@@ -42,10 +44,9 @@ images). Nothing below can be checked by a program. That's why a person does it.
 
 ## Approvals
 
-The reviewers are @the3dcoder and one trusted parent. For now every pack needs an approval from one of them.
-Once there are more reviewers, a new pack will need two approvals.
-
-A reviewer's own pack needs an approval from another reviewer.
+For now the reviewer is @the3dcoder, and every pack needs that approval. A second trusted parent will join
+later. Once there are more reviewers, a new pack will need two approvals, and a reviewer's own pack will need
+an approval from someone else.
 
 ## If something slips through
 

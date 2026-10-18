@@ -180,14 +180,15 @@ grey, fill with a pattern of black and white (dots or stripes). The example's ci
   `path`), groups (`g`) and patterns, filled and stroked with black, white or a pattern. No text, no embedded
   images, no links, no scripts, no styles, no see-through fills. The `<svg>` needs
   `xmlns="http://www.w3.org/2000/svg"` and a `viewBox` that matches the size.
-- **What to draw.** Animals, places and things. Never people and never faces.
+- **What to draw.** Animals, places and things, and simple cartoon people if a pack needs them (an astronaut in
+  a helmet, say). Never a real person, and never a realistic face.
 - **Saving from a drawing app.** Apps add their own extras. In Inkscape, use *File > Save As* and pick
   *Plain SVG*. Then open the file in a text editor: if you see colours like `#3a7bd5`, change them to `#000`
   or `#fff`. The checker will point at anything left over.
 - **Photos.** Your own photos of animals, places and things are welcome as a starting point, but for now the
   checker takes drawings only. Trace the photo: put it on a layer in your drawing app, draw bold black outlines
-  over it, delete the photo layer, and save the outlines as plain SVG. Make sure no people or faces are in it,
-  even in the background.
+  over it, delete the photo layer, and save the outlines as plain SVG. Only trace photos of animals, places and
+  things: no people or faces, not even in the background.
 
 Then describe each picture in `assets/manifest.yml` and add its name to `assets` in `pack.yaml`:
 
@@ -244,8 +245,8 @@ checks before you open your pull request.
 4. The checker runs. If it finds something, fix it and push again; the pull request updates itself.
 5. A reviewer reads every item and looks at every picture, using [SAFETY.md](SAFETY.md). They may suggest
    changes. That's normal, and it isn't a judgement of your work; it's how every pack gets better.
-6. When they're happy, they merge it. Right now the reviewers are @the3dcoder and one trusted parent, and a pack
-   needs one approval. Once there are more reviewers, a new pack will need two.
+6. When they're happy, they merge it. Right now the reviewer is @the3dcoder, and a pack needs that approval. A
+   second trusted parent will join later; once there are more reviewers, a new pack will need two approvals.
 
 ## Updating a pack
 

@@ -8,7 +8,7 @@
 - [ ] The id is `cm.<my-github-handle>.<pack-name>`, at most 32 characters, and matches the folder name.
 - [ ] `ruby scripts/check_packs.rb` says the pack looks good.
 - [ ] I made everything in this pack myself, words and pictures, and I dedicate it to the public domain under CC0-1.0.
-- [ ] Every picture is a drawing of animals, places or things. No people and no faces, not even in the background.
+- [ ] Every picture is a drawing. Any people are simple cartoon figures, never a real person or a realistic face, and nothing is traced from a photo of a person.
 - [ ] No real names, addresses, schools, brands, logos, links, or characters that belong to someone else.
 - [ ] Nothing scary, mean, gross or shaming, and a wrong answer is never mocked.
 - [ ] Every question has exactly one right answer, and the other choices are fair.
