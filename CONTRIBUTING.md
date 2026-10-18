@@ -178,7 +178,8 @@ grey, fill with a pattern of black and white (dots or stripes). The example's ci
   size of a postage stamp. If you can still tell what it is, it works.
 - **What's allowed in the file.** Only shapes (`rect`, `circle`, `ellipse`, `line`, `polyline`, `polygon`,
   `path`), groups (`g`) and patterns, filled and stroked with black, white or a pattern. No text, no embedded
-  images, no links, no scripts, no styles, no see-through fills. The `<svg>` needs
+  images, no links, no scripts, no styles, no see-through fills. One short note on a single line before `<svg>` is fine
+  (what the picture is, its size, CC0-1.0); comments inside the drawing aren't. The `<svg>` needs
   `xmlns="http://www.w3.org/2000/svg"` and a `viewBox` that matches the size.
 - **What to draw.** Animals, places and things, and simple cartoon people if a pack needs them (an astronaut in
   a helmet, say). Never a real person, and never a realistic face.

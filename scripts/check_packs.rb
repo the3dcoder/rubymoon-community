@@ -1320,9 +1320,20 @@ module PackCheck
       s.skip(/\s*<\?xml\s[^?<>]*\?>/)
       stack = []
       root = nil
+      comments = 0
       until s.eos?
         if s.skip(/<!--/)
-          return [nil, "has a comment that never ends (<!-- without -->)."] unless s.skip_until(/-->/)
+          body = s.scan_until(/-->/) or return [nil, "has a comment that never ends (<!-- without -->)."]
+          note = body.delete_suffix("-->")
+          unless root.nil? && stack.empty?
+            return [nil, "has a comment inside the drawing. Only one short note before <svg> is allowed, because " \
+                         "reviewers can't see comments in the picture."]
+          end
+          return [nil, "has more than one comment. Keep one short note before <svg>."] if (comments += 1) > 1
+          if note.include?("\n") || note.length > 200
+            return [nil, "has a long comment. Keep the note before <svg> to one line of 200 characters or fewer."]
+          end
+          return [nil, "has a link or email address in its comment."] if note.match?(%r{https?:|www\.|@|\.(com|org|net)\b}i)
         elsif s.check(/<!/)
           return [nil, "has a DOCTYPE, entity or CDATA section. Save it as plain SVG without them."]
         elsif s.check(/<\?/)

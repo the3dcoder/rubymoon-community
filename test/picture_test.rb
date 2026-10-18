@@ -131,6 +131,39 @@ class SvgTest < PackTest
     assert_svg_problem(/points outside the file/)
   end
 
+  def header_note(note)
+    write("assets/circle.svg", svg(CIRCLE).sub("\n<svg", "\n<!-- #{note} -->\n<svg"))
+  end
+
+  def test_one_short_note_before_the_drawing_passes
+    header_note("cm.example.shapes: circle, 112x112, 1-bit. CC0-1.0.")
+    assert_clean
+  end
+
+  def test_comments_inside_the_drawing_are_refused
+    picture("<!-- a note -->#{CIRCLE}")
+    assert_svg_problem(/comment inside the drawing/)
+  end
+
+  def test_a_second_note_is_refused
+    write("assets/circle.svg", svg(CIRCLE).sub("\n<svg", "\n<!-- one -->\n<!-- two -->\n<svg"))
+    assert_svg_problem(/more than one comment/)
+  end
+
+  def test_long_or_multi_line_notes_are_refused
+    header_note("x" * 201)
+    assert_svg_problem(/long comment/)
+    header_note("line one\nline two")
+    assert_svg_problem(/long comment/)
+  end
+
+  def test_links_and_emails_in_notes_are_refused
+    header_note("drawn by someone at example.com")
+    assert_svg_problem(/link or email address/)
+    header_note("see https://example.org")
+    assert_svg_problem(/link or email address/)
+  end
+
   def test_text_elements_are_refused
     picture('<text x="10" y="50">Hello</text>')
     assert_svg_problem(/has words in it/)
