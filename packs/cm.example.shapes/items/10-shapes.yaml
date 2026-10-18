@@ -1,0 +1,48 @@
+# Flat shapes (shapes.flat). Level 1: two tiles. Level 2: three tiles, and a yes-or-no question.
+
+- id: find-circle
+  rev: 1
+  type: choice
+  skill: shapes.flat
+  lvl: 1
+  diff: 1
+  prompt: {icon: find, text: Find the circle.}
+  options:
+    - {img: circle, ok: true}
+    - {img: square}
+  hint: A circle is round all the way around.
+
+- id: find-square
+  rev: 1
+  type: choice
+  skill: shapes.flat
+  lvl: 1
+  diff: 1
+  prompt: {icon: find, text: Find the square.}
+  options:
+    - {img: square, ok: true}
+    - {img: triangle}
+  hint: A square has 4 sides, all the same length.
+
+- id: find-triangle
+  rev: 1
+  type: choice
+  skill: shapes.flat
+  lvl: 2
+  diff: 2
+  prompt: {icon: find, text: Find the triangle.}
+  options:
+    - {img: triangle, ok: true}
+    - {img: circle}
+    - {img: square}
+  hint: A triangle has 3 sides and 3 pointy corners.
+
+- id: square-corners
+  rev: 1
+  type: truefalse
+  skill: shapes.flat
+  lvl: 2
+  diff: 2
+  prompt: {icon: yesno, text: Does a square have 4 corners?, img: square}
+  answer: true
+  fact: Yes! A square has 4 corners and 4 sides, all the same length.

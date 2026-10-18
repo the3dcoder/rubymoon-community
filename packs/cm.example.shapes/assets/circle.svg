@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- cm.example.shapes: circle, 112x112, 1-bit. A dotted circle with a thick outline. CC0-1.0. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 112 112">
+  <defs>
+    <pattern id="dots" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#fff"/>
+      <rect width="2" height="2" fill="#000"/>
+    </pattern>
+  </defs>
+  <circle cx="56" cy="56" r="44" fill="url(#dots)" stroke="#000" stroke-width="6"/>
+</svg>

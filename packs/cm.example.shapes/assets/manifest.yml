@@ -1,0 +1,34 @@
+# Pictures in this pack: one entry per SVG drawing. src is relative to the pack folder.
+# Every picture is 1-bit (black and white, with patterns for grey) and CC0-1.0.
+- id: circle
+  src: assets/circle.svg
+  size: [112, 112]
+  mode: 1bit
+  dither: none
+  license: CC0-1.0
+  credit: Drawn for the Ruby Moon community
+  source_url: null
+- id: square
+  src: assets/square.svg
+  size: [112, 112]
+  mode: 1bit
+  dither: none
+  license: CC0-1.0
+  credit: Drawn for the Ruby Moon community
+  source_url: null
+- id: triangle
+  src: assets/triangle.svg
+  size: [112, 112]
+  mode: 1bit
+  dither: none
+  license: CC0-1.0
+  credit: Drawn for the Ruby Moon community
+  source_url: null
+- id: star
+  src: assets/star.svg
+  size: [112, 112]
+  mode: 1bit
+  dither: none
+  license: CC0-1.0
+  credit: Drawn for the Ruby Moon community
+  source_url: null

@@ -1,0 +1,27 @@
+# cm.example.shapes: a tiny example pack for the Ruby Moon community.
+# Copy this folder to start your own pack; CONTRIBUTING.md walks through every field.
+# Items live in items/*.yaml and pictures in assets/ (described in assets/manifest.yml).
+schema: 1
+id: cm.example.shapes
+version: 1.0.0
+min_firmware: 1.0.0
+title: Find the Shape
+description: Four gentle questions about circles, squares and triangles. A small example to copy when you make a pack.
+icon: star
+author: {kind: community, name: Ruby Moon community}
+license: CC0-1.0
+skills:
+  - {id: shapes.flat, levels: 3, title: Flat shapes, start: [1, 1, 2, 3, 3]}
+activities:
+  - id: find-shape
+    template: choice
+    title: Find the Shape
+    icon: star
+    world: shapes
+    bands: [B1, B2, B3]
+    pool: {skills: [shapes.flat], types: [choice, truefalse]}
+credits:
+  - {assets: ['*'], license: CC0-1.0, credit: Drawn for the Ruby Moon community}
+
+# Picture names from assets/manifest.yml.
+assets: [circle, square, triangle, star]
