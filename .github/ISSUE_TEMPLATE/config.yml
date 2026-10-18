@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Safety report (private)
+    url: https://github.com/the3dcoder/rubymoon-community/security/advisories/new
+    about: A person or face in a picture, personal details, something unsafe for a child, or your work shared without permission. Only the reviewers see it.

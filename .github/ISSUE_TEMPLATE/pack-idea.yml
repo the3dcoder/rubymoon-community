@@ -1,0 +1,47 @@
+name: Pack idea
+description: Suggest a pack you'd like to see, or one you're planning to make.
+title: "Pack idea: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Anyone can pick it up, you included. CONTRIBUTING.md shows how to make a pack.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would children learn or play?
+      placeholder: Farm animals and the sounds they make, matching each animal to its baby, ...
+    validations:
+      required: true
+  - type: checkboxes
+    id: ages
+    attributes:
+      label: Which ages?
+      options:
+        - label: B1, about 3
+        - label: B2, about 4
+        - label: B3, about 5
+        - label: B4, about 6
+        - label: B5, about 7 to 8
+  - type: textarea
+    id: examples
+    attributes:
+      label: A question or two, as you imagine them
+      placeholder: "Find the cow. (pictures: cow, sheep, duck)"
+  - type: dropdown
+    id: making
+    attributes:
+      label: Are you planning to make it?
+      options:
+        - Yes, I'd like to make it
+        - Maybe, with some help
+        - No, it's an idea for someone else
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: The rules
+      options:
+        - label: The idea needs no people, faces, brands, or characters that belong to someone else.
+          required: true
