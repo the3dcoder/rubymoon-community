@@ -28,7 +28,7 @@ perfect.
 
 ## What happens next
 
-- We aim to take a first look at safety reports within 48 hours.
+- We look at safety reports as soon as we can.
 - **We act first and talk after.** If a report is credible, we withdraw the pack straight away and work out the
   details afterwards.
 - We'll tell you what we did, in the report.

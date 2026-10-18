@@ -4,7 +4,7 @@ Ruby Moon is a little learning device for children aged 3 and up. It runs on the
 e-paper reader, and it plays gentle games about the Moon, space, shapes, letters and numbers. Everything it
 plays comes in **packs**: small bundles of questions, stories and black-and-white pictures.
 
-Ruby Moon started as one parent's project for one little girl. This repository is where other families can
+Ruby Moon started as one family's project. This repository is where other families can
 make packs too, share them, and use each other's.
 
 ## Who it's for

@@ -34,7 +34,7 @@ images). Nothing below can be checked by a program. That's why a person does it.
 - **Readable on e-paper.** Every picture is clear in black and white at tile size, without fine detail. Text
   fits its tile.
 - **Right for the ages.** The bands suit the questions. Anything a child reads alone (`self_read: true`) is at
-  her reading level. Grown-up lines are short and kind.
+  their reading level. Grown-up lines are short and kind.
 - **Shared freely.** Everything is the author's own work, dedicated to the public domain under CC0-1.0, with
   honest credits. Nothing traced from someone else's picture, book or show.
 - **Small and complete.** One pack, a sensible size, a README that tells a parent what they're adding, and a

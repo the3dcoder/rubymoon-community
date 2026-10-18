@@ -9,9 +9,9 @@ you make your own pack, and it's a nice first game too.
 
 ## Playing together
 
-Before she presses a button, trace the edge of each shape on the screen with your finger and say what you
+Before your child presses a button, trace the edge of each shape on the screen with your finger and say what you
 notice: "This one is round all the way. This one has pointy corners." Count the corners out loud together.
-If she picks the wrong one, the hint is a good thing to read to her.
+If they pick the wrong one, the hint is a good thing to read together.
 
 ## Credits
 
